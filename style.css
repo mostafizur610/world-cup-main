@@ -54,32 +54,23 @@ h1 {
 /* Blog section start */
 .blog-section {
     margin-top: 100px !important;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-evenly;
     grid-gap: 15px;
-
 }
-
-
 
 .link-button {
     background-color: #111111 !important;
-    /* margin-top: 100px; */
     border-radius: 10px;
     height: 260px;
-    width: 100%;
+    width: 260px;
 }
 
 
 .button-section {
-    /* display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center; */
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* align-items: center; */
     padding: 30px;
 }
 
@@ -94,20 +85,11 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     margin-top: 15px;
-    /* margin: 30px 30px 30px 30px; */
-    /* 
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px; */
-
 }
 
 .button1 {
     background-color: white;
     color: black;
-
 }
 
 .button2 {
@@ -120,34 +102,25 @@ h1 {
     color: white;
 }
 
-
 .live-section {
     background-color: whitesmoke;
     box-shadow: lightcyan;
-
-
 }
 
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
-    /* flex-wrap: wrap; */
-    /* background-color: green; */
-    /* overflow: hidden; */
-
 }
 
 .icon-class {
     display: flex;
-
-    /* justify-content: flex-start;
-    justify-content: space-evenly; */
 }
 
 .blog-content {
-    /* padding-left: 20px; */
-    border: 1px solid gray;
+    border: 1px solid whitesmoke;
+    background-color: lightcyan;
+    border-radius: 10px;
 }
 
 .time {

@@ -99,8 +99,8 @@ body {
 }
 
 .button1 {
-    background-color: white;
-    color: black;
+    background-color: #f44336;
+    color: white;
 }
 
 .button2 {
@@ -109,8 +109,8 @@ body {
 }
 
 .button3 {
-    background-color: #f44336;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 /* button section end */
@@ -124,24 +124,23 @@ body {
 
 .live-section {
     background-color: rgb(226, 236, 232);
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(179, 165, 165, 0.514);
     border-radius: 10px;
 }
 
-.blog-content {
-    box-shadow: lightcyan;
+.content {
+    padding: 40px;
 }
 
-.icon-class {
+.match-section {
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
-.time {
-    justify-content: flex-start;
-}
-
-.message {
-    padding-left: 40px;
+.matches {
+    text-align: center;
+    margin-top: 15px;
 }
 
 /* Blog & live Section End */

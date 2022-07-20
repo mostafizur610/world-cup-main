@@ -1,3 +1,48 @@
+/* for all Body section */
 body {
-    background-color: rgb(35, 136, 43);
+    background-color: rgb(236, 243, 237);
+    font-family: 'Poppins', sans-serif;
+}
+
+.resize-box {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Banner section */
+.banner {
+    background-color: #200101;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top-banner {
+    color: #f6f9fa;
+    width: 60%;
+    padding: 40px 0px;
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.live-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 13px 30px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.half-width img {
+    height: 90%;
+    width: 100%;
+    margin-top: 10%;
 }

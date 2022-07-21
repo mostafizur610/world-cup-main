@@ -43,7 +43,7 @@ body {
 
 .live-button {
     text-decoration: none;
-    background-image: linear-gradient(orange, tomato);
+    /* background-image: linear-gradient(orange, tomato); */
     padding: 13px 30px;
     color: white;
     font-weight: 700;
@@ -52,6 +52,24 @@ body {
 
 .btnnn {
     margin-top: 30px;
+}
+
+/* animation */
+.live-button {
+
+    background-color: rgb(58, 8, 92);
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    from {
+        background-color: rgb(102, 255, 0);
+    }
+
+    to {
+        background-color: rgb(34, 34, 1);
+    }
 }
 
 .half-width img {
@@ -144,6 +162,23 @@ body {
     padding-left: 40px;
 }
 
+/* view button */
+.view-btn {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
+.view-all {
+    margin-top: 20px;
+    text-align: center;
+}
+
 /* Blog & live Section End */
 
 /* Footer option start*/
@@ -223,21 +258,6 @@ hr {
     color: white;
 }
 
-.view-btn {
-    background-color: red;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 7px 15px;
-    border: none;
-    border-radius: 5px;
-    display: none;
-}
-
-.view-all {
-    margin-top: 20px;
-    text-align: center;
-}
 
 /* social icon section end*/
 /* Footer option end*/
